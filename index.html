@@ -73,7 +73,7 @@ try{var startApplication=function(){require(["Loggers","Loggers.Configuration.SC
 
 <script>
 (() => {
-  const REAL_ORIGIN = 'https://www.onedecksports.com';
+  const REAL_ORIGIN = 'https://www.ondecksports.com';
 
   function getFixedHref(rawHref) {
     if (!rawHref) return null;
@@ -98,7 +98,7 @@ try{var startApplication=function(){require(["Loggers","Loggers.Configuration.SC
     // Already a full usa.mizuno.com URL
     try {
       const url = new URL(href, window.location.href);
-      if (url.hostname === 'www.onedecksports.com') {
+      if (url.hostname === 'www.ondecksports.com') {
         return url.href;
       }
     } catch (e) {}
